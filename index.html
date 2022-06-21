@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="PLOPPY" />
+    <meta property="og:description" content="마음으로 키우는 나만의 힐링 공간, PLOPPY" />
+
+    <meta name="description" content="마음으로 키우는 나만의 힐링 공간, PLOPPY">
+    <meta name='keywords' content='js, html, CSS' />
+
+    <link rel="icon" href="./images/favicon_32.ico" sizes="32x32" />
+    <link rel="apple-touch-icon" href="./images/favicon_180.ico" sizes="180x180" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel='stylesheet' type='text/css' href='./css/reset.css' />
+    <link rel='stylesheet' type='text/css' href='./css/common.css' />
+    <link rel="stylesheet" type='text/css' href="./css/animate.css">
+    <link rel="stylesheet" type='text/css' href="./css/slick.css">
+    <link rel="stylesheet" type='text/css' href="./css/slick-theme.css">
+
+    <title>PLOPPY</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1><a href="index.html"><img src="./images/logo.png" alt="플로피로고"></a></h1>
+            <ul id="gnb">
+                <li><a href="javascript:window.scrollTo( 0, 1080 );">플로피는?</a></li>
+                <li><a href="javascript:window.scrollTo( 0, 5200 );">디자인</a></li>
+                <li><a href="javascript:window.scrollTo( 0, 7130 );">서비스 소개</a></li> 
+                <li><a href="javascript:window.scrollTo( 0, 12150 );">플로피 영상</a></li>
+            </ul>
+        </nav>
+    </header> <!--header-->
+
+    <main>
+        <div id="main1">
+            <div id="main_page1">
+                <img id="main_icon_img" class="wow fadeInUp" src="./images/main_icon.png" alt="앱 아이콘">
+                <h2 class="wow fadeInUp">마음으로 키우는 나만의 반려식물</h2>
+                <h3 class="wow fadeInUp"><img src="./images/main_name.png"  alt="앱 아이콘"></h3>
+                <h4 class="wow fadeInUp" data-wow-delay="1s">마음이 우울하고 답답하신가요? 하루 한 번 플로피에서 나만을 위한 질문과 답변을 통해 위로를 받으세요. <br>
+                    질문에 답변을 할 때마다 당신의 식물은 무럭무럭 자라날 거에요.<br>
+                    플로피아를 통해 익명으로 전문가와 상담도 받고 유저들과 소통하며 힐링을 느껴보세요.<br>
+                    다 자란 식물은 집으로 배송! 이제 당신의 플로피를 직접 만나보세요!</h4>
+            </div>
+            <div id="main_page2" onmouseover="mover()" onmouseout="mout()">
+                <!-- <img class="wow bounce" src="./images/main_mu.png" alt="메인이미지"> -->
+            </div>
+        </div>
+        <!-- <div id="main_page1">
+            <img id="main_icon_img" src="./images/main_icon.png" alt="앱 아이콘">
+            <h2>마음으로 키우는 나만의 반려식물</h2>
+            <h3><img src="./images/main_name.png" alt="앱 아이콘"></h3>
+            <h4>마음이 우울하고 답답하신가요? 하루 한 번 플로피에서 나만을 위한 질문과 답변을 통해 위로를 받으세요. <br>
+                질문에 답변을 할 때마다 당신의 식물은 무럭무럭 자라날 거에요.<br>
+                플로피아를 통해 익명으로 전문가와 상담도 받고 유저들과 소통하며 힐링을 느껴보세요.<br>
+                다 자란 식물은 집으로 배송! 이제 당신의 플로피를 직접 만나보세요!</h4>
+        </div>
+        <div id="main_page2">
+            <img src="./images/main_mu.png" alt="메인이미지">
+        </div> -->
+
+        <section id="section1" class="inner"> <!--기획의도-->
+            <div id="sec1" class="wow fadeInUp" data-wow-offset="100">
+                <h1>Overview</h1><br>
+            <h1><img src="./images/logo_mini.png" alt=""></h1><br>
+            <h2><span>PLANT + HAPPY</span></h2>
+            <h2>녹색 힐링을 통한 마음 치유<br>
+                식물이 주는 긍정적인 힘</h2>
+            <h3>MZ 세대의 우울증이 급격하게 증가하고 있습니다. <br>
+                녹색이 주는 힐링에 집중하여 사용자의 우울증을 완화시키기로 하였습니다.<br>
+                앱 속의 반려 식물을 키우는 과정을 통하여 사용자의 행복을 증진시키고 <br>
+                우울증을 저하시키고자 앱을 기획하였습니다. </h3>
+            </div>
+            
+            <div style="position:absolute; top: 1277px; right: 170px;">
+                <img class="wow fadeInUp" data-wow-delay="0.5s" data-wow-offset="500" src="./images/talk3.png" alt="후기">
+            </div>
+        </section>
+    
+        <section id="section2" class="inner">
+            <div id="sec2">
+                <img class="wow fadeInLeft" data-wow-offset="50" src="./images/graph.png" alt="">
+            </div>
+            <div id="persona">
+                <img src="./images/personas.png" alt="">
+            </div>
+            <div id="dot">
+                <img src="./images/dot3.png" alt="">
+            </div>
+            <div id="persona_box">
+                <img class="wow fadeInDown" data-wow-offset="100" src="./images/personas_1.png" alt="추천기능1">
+                <img class="wow fadeInDown" data-wow-offset="100" src="./images/personas_2.png" alt="추천기능2">
+            </div>
+            <div id="sec3">
+                <h1>정보구조도</h1>
+            </div>
+            <div id="sec3_img">
+                <img src="./images/algorithm.jpg" alt="">
+            </div>
+        </section>
+
+        <div id="wrap_design">
+            <section id="section3" class="inner"><!--디자인-->
+                <h1 id="design_title">Design</h1>
+                <div id="de1">
+                    <h2>Logo Design</h2>
+                    <h2><span class="green">PLOPPY</span></h2>
+                    <img id="logo_design" src="./images/logo_design.png" alt="">
+                    <h2><span class="black">플로피의 로고</span></h2>
+                    <p>플로피의 로고는 크게 두가지가 있습니다. 대표 로고로는 알파벳 P가 떠오르는 아이콘입니다.<br>
+                        PLOPPY의 알파벳이 모두 들어가며 메인 컬러들의 조합으로 나뭇잎의 느낌을 살려 제작하였습니다.</p>
+                </div>
+                <div id="de2">
+                    <h2>typography</h2>
+                    <h2><span class="green">Pretendard</span></h2>
+                    <div class="blank"></div>
+                    <h3><span id="eb">프리텐다드 Pretendard ExtraBold</span></h3>
+                    <h3><span id="m">프리텐다드 Pretendard Medium</span></h3>
+                    <h3><span id="l">프리텐다드 Pretendard Light</span></h3>
+                </div>
+                <div id="de3">
+                    <h2>Character design</h2>
+                    <h2><span class="green">Round, Cute</span></h2>
+                    <img class="margin29" src="./images/char_design.png" alt="캐릭터 디자인">
+                    <h2><span class="black">플로피의 캐릭터 플로핑!</span></h2>
+                    <P>스투키 화분인 프로피의 캐릭터는 관용이라는 꽃말을 가지고 있습니다.<br>
+                        뭐든지 너그럽게 받아드리고 용서한다는 뜻을 의미하며, 플로피에서의 스투키는 <br>
+                        여러분의 의견을 수용하고 그만큼 받아드린다는 의미가 담겨있습니다.</P>
+                </div>
+            </section>
+            <section id="section4" class="inner">
+                <div id="de4">
+                    <h2>Color</h2>
+                    <h2><span class="green">Green</span></h2>
+                    <img class="margin29" src="./images/color.png" alt="">
+                    <h2><span class="black">싱그러운 식물의 컬러 GREEN</span></h2>
+                    <p>보기만 해도 기분이 좋아지는 화사하고 싱그러운 그린 컬러들을 사용하여 안정감을 주었으며, <br>
+                        청량한 느낌을 주기 위해 청색을 섞은 컬러로 선정하였습니다. </p>
+                </div>
+                <div id="de5">
+                    <h2>Icon Design</h2>
+                    <h2><span class="green">Main</span></h2>
+                    <img id="icon_design" src="./images/icon_design.png" alt="">
+                    <h2><span class="black">플로피의 아이콘</span></h2>
+                    <p>플로피의 아이콘은 둥근 값을 주어 따뜻하고 시각적으로 동글동글한 느낌을 부여했습니다.<br>
+                        메인 아이콘인 홈 버튼은 플로피의 로고에서 착안된 디자인으로 플로피의 나뭇잎을 표현했습니다.</p>
+                </div>
+                <div id="de6">
+                    <h2>Round Design</h2>
+                    <h2><span class="green">Soft, Warm</span></h2>
+                    <img class="margin29" src="./images/round.png" alt="라운드 디자인">
+                    <h2><span class="black">둥근 라운드로 따뜻함과 부드러움을!</span></h2>
+                    <P>둥근 이미지를 사용해서 사용자들에게 따뜻한 이미지를 심어줄 수 있는 디자인<br>
+                        마음의 치유 서비스인만큼 따뜻한 이미지를 남기는 것에 중점을 두었습니다.</P>
+                </div>
+            </section>
+        </div>
+        <section id="section5" class="inner">
+            <div>
+                <img class="wow fadeInRight" data-wow-offset="200" id="qna_img2" src="./images/qna2.png" alt="">
+            </div>
+            <div id="sec5" class="wow fadeInUp" data-wow-offset="200">
+                <h1>GUI</h1>
+                <h2><span class="green">01</span></h2>
+                <h3>전문가의 질문에 답을 하고 <br>
+                    앱 속 식물을 키워요 !</h3>
+                <p>전문가의 논문을 바탕으로 제작된 질문지를 통해 자신의 우울도를 측정하여 사용자의 우울 유형에 맞는 전문적인 질문을 제공합니다. <br>
+                    하루에 한번 질문에 답을 하며 자신을 더욱 사랑하고 성찰할 수 있어요. 질문에 답을 할 수록 당신의 플로피가 성장합니다. <br>
+                    성장이 완료된 플로피는 당신의 집으로 직접 배송됩니다.</p>
+            </div>
+            <div id="sec5_img1">
+                <img class="wow fadeInLeft" data-wow-offset="100" data-wow-delay="0.5s" src="./images/qna1.png" alt="">
+            </div>
+            <div id="sec5_img2">
+                <img class="wow fadeInUp"  data-wow-offset="100" src="./images/letter.png" alt="">
+            </div>
+            <div id="sec5_2" class="wow fadeInUp" data-wow-offset="100" data-wow-delay="0.5s">
+                <h2><span class="green">02</span></h2>
+                <h3>나의 플로피 씨앗을 편지에 담아 <br>
+                    익명을 편지를 주고 받을 수 있어요! </h3>
+                <p>익명의 사용자에게 씨앗을 담아 고민의 편지를 보낼 수 있고 <br>
+                다른 사용자의 씨앗이 담긴 위로의편지를 받을 수 있어요. <br>
+                그렇게 주고 받은 씨앗은 하나의 플로피 화분이 다 성장했을 때 <br>
+                새로운 화분으로 심어 키울 수 있답니다. </p>
+            </div>
+            <div id="sec5_3" class="wow fadeInUp" data-wow-offset="200">
+                <h2><span class="green">03</span></h2>
+                <h3>힐링의 공간 플로피아에서<br>
+                    전문가와 상담하고 익명의 사용자와 소통해요!</h3>
+                <p>익명의 사용자에게 씨앗을 담아 고민의 편지를 보낼 수 있고<br>
+                다른 사용자의 씨앗이 담긴 위로의편지를 받을 수 있어요. <br>
+                그렇게 주고 받은 씨앗은 하나의 플로피 화분이 다 성장했을 때 <br>
+                새로운 화분으로 심어 키울 수 있답니다. </p>
+            </div>
+            <div id="plopia">
+                <iframe  src="https://www.youtube.com/embed/fojgnSO5MOI" 
+                title="YouTube video player"  allow="accelerometer; autoplay; 
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="clear"></div>
+            <!-- <div id="video_img">
+                <img src="./images/video.png" alt="">
+            </div> -->
+            <div class="autoplay">
+                <div class="imgbox"><img src="./images/image1.jpg" alt="이미지 갤러리"></div>
+                <div class="imgbox"><img src="./images/image2.jpg" alt="이미지 갤러리"></div>
+                <div class="imgbox"><img src="./images/image3.jpg" alt="이미지 갤러리"></div>
+                <div class="imgbox"><img src="./images/image4.jpg" alt="이미지 갤러리"></div>
+                <div class="imgbox"><img src="./images/image5.jpg" alt="이미지 갤러리"></div>
+                <div class="imgbox"><img src="./images/image6.jpg" alt="이미지 갤러리"></div>
+                <div class="imgbox"><img src="./images/image7.jpg" alt="이미지 갤러리"></div>
+                <div class="imgbox"><img src="./images/image8.jpg" alt="이미지 갤러리"></div>
+            </div>
+            <div id="sec5_4" class="wow fadeInUp" data-wow-offset="200">
+                <h2><span class="green">04</span></h2>
+                <h3>모바일에서 키운 식물을<br>
+                    직접 집으로 받아보세요! </h3>
+                <p>모바일에서 키운 식물을 직접 집으로 받아보세요!<br>
+                    다 키운 식물은 플로피가 배달해드릴게요.<br>
+                    이제는 모바일이 아닌 현실로 식물을 길러보세요.</p>
+            </div>
+        </section>
+        <div class="clear"></div>
+        <section id="section6" class="inner">
+            <div>
+                <h1>플로피 영상</h1>
+            </div>
+            <div id="ploppy_video">
+                <iframe src="https://www.youtube.com/embed/IcFqvRD5uug" title="YouTube video player" allow="accelerometer; autoplay; 
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="section7" class="inner">
+            <div class="sec1">
+            <h1><img src="./images/logo_mini.png" alt="작은 로고"></h1>
+            </div>
+            <div id="plus">
+                <h2 id="fin1"><span>PLANT + HAPPY</span></h2>
+            </div>
+            <div class="sec1">
+                <h2 id="fin2">이젠 플로피를 직접 경험해보세요!</h2>
+                <h3 id="fin3">플로피를 통해서 식물 기르기의 재미도 느끼고<br>
+                직접 식물을 받아보면서 성취감도 UP! UP! <br>
+                이제 당신의 우울함을 플로피가 날려드릴게요!</h3>
+            </div>
+            <button type="button" onclick="window.open('https://www.figma.com/proto/hpvQDGCjX3fz49p8BiXNeC/PLOPPY?page-id=0%3A1&node-id=0%3A1&viewport=367%2C205%2C0.09&scaling=scale-down&starting-point-node-id=25%3A64&show-proto-sidebar=1'); target='_blank' ">체험하러 가기</button>
+            <button type="button" onclick="ploppyBehind()">플로피 비하인드</button>
+        </section>
+    </main>
+
+    <footer class="attach">
+        <aside id="top_btn"><!--TOP btn-->
+            <div id="scrollTop"><span class="blind">맨 위로 가기</span>TOP</div>
+        </aside>
+        <div>
+            <table>
+                <tr>
+                    <td class="pos">Planner</td>
+                    <td>이나은&nbsp;<span>|</span>&nbsp; all_iwantislove@naver.com</td>
+                </tr>
+                <tr>
+                    <td class="pos">Designer</td>
+                    <td>박수빈&nbsp;<span>|</span>&nbsp; sunbow12345@naver.com</td>
+                </tr>
+                <tr>
+                    <td class="pos">Programmer</td>
+                    <td>전지혜&nbsp;<span>|</span>&nbsp; wise251@naver.com</td>
+                </tr>
+            </table>
+            <ul id="sns">
+                <li><a href="#"><img src="./images/ytb.png" alt=""></a></li>
+                <li><a href="#"><img src="./images/insta.png" alt=""></a></li>
+                <li><a href="#"><img src="./images/katalk.png" alt=""></a></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="clear"></div>
+    <div id="footer_logo">
+        <img src="./images/logo_footer.png" alt="">
+    </div>
+
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/gnb.js"></script>
+    <script src="./js/wow.min.js" ></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/slick-autoplay.js"></script>
+    <script>
+	new WOW().init();
+    </script>
+</body>
+</html>
